@@ -1,0 +1,30 @@
+@mixin botones($color , $colorBg , $tamanio, $display){
+    color: $color;
+    background-color: $colorBg;
+    font-size: $tamanio;
+    display: $display;
+}
+
+.boton__servicio1{
+    @include botones(white, black, 28px, block);
+    border-radius: 16px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.boton__servicio2{
+    @include botones(white, black, 28px, block);
+    border-radius: 16px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.boton__servicio3{
+    @include botones(white, black, 28px, block);
+    border-radius: 16px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}

@@ -1,0 +1,170 @@
+@charset "UTF-8";
+.serviciosGrilla {
+  height: auto;
+  width: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "div1 div2 div3" "div1 div2 div3" "div1 div2 div3";
+  column-gap: 10px; }
+
+.servicios__div1, .servicios__div2, .servicios__div3 {
+  background-image: linear-gradient(white, grey);
+  grid-area: div1;
+  border-radius: 20px; }
+
+.servicios__div2 {
+  grid-area: div2; }
+
+.servicios__div3 {
+  grid-area: div3; }
+
+.nosotros__text {
+  font-style: oblique;
+  font-weight: 500;
+  font-family: Source Sans Pro;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0px;
+  line-height: 1.2;
+  word-spacing: 3px;
+  text-transform: uppercase;
+  margin: 0px;
+  color: white; }
+
+.servicios__titulo {
+  margin-top: 50px;
+  text-align: center; }
+
+.servicios__texto {
+  font-size: 18pt;
+  letter-spacing: 0.2px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: 50px; }
+
+.boton__servicio1 {
+  color: white;
+  background-color: black;
+  font-size: 28px;
+  display: block;
+  border-radius: 16px;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px; }
+
+.boton__servicio2 {
+  color: white;
+  background-color: black;
+  font-size: 28px;
+  display: block;
+  border-radius: 16px;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px; }
+
+.boton__servicio3 {
+  color: white;
+  background-color: black;
+  font-size: 28px;
+  display: block;
+  border-radius: 16px;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px; }
+
+/* COMIENZA NAV */
+.navbar {
+  background-color: black;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  min-height: 100px; }
+
+#nav1 {
+  background-color: black;
+  opacity: 0.9;
+  filter: opacity=50; }
+
+.nav-link {
+  color: #ffffff; }
+
+/* FINALIZA NAV */
+/* COMIENZA GALERIA*/
+.mainGaleria {
+  background-size: cover;
+  width: auto;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.mainGaleria > img:hover {
+  transform: scale(1.1); }
+
+.mainGaleria > img {
+  transform: scale(1);
+  transition: 2s;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+/* FINALIZA GALERIA*/
+/* COMIENZA SOBRE NOSOTROS*/
+.mainNosotros {
+  height: 900px;
+  background: url(https://onfiredrinks.com/wp-content/uploads/2016/07/onfire-drinks-acerca-de-nosotros_onfire.jpg) no-repeat;
+  background-size: cover; }
+
+.nosotros__img {
+  display: block;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 50px; }
+
+/* FINALIZA SOBRE NOSOTROS*/
+.servicios__img {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  display: flex; }
+
+body {
+  margin: 0;
+  background-color: black !important; }
+
+hr {
+  margin-top: 20px;
+  color: white !important; }
+
+.galeria__img {
+  margin: auto;
+  display: block;
+  width: 50%;
+  height: auto; }
+
+.textoFooter {
+  color: #6b6868; }
+
+/* TAMAÑO PARA MOVILES */
+@media only screen and (max-width: 320px) {
+  .textoInicio {
+    font-size: 14pt; }
+  .galeria__img {
+    width: 100%; }
+  .nosotros__img {
+    max-width: 320px;
+    margin: 0;
+    margin-bottom: 50px; }
+  .nosotros__text {
+    font-size: 16pt; }
+  .serviciosGrilla {
+    display: block; } }
+
+/* TAMAÑO TABLETS Y NOTEBOOKS*/
+@media (min-width: 321px) and (max-width: 1024px) {
+  .textoInicio {
+    font-size: 18pt; }
+  .nosotros__text {
+    font-size: 18pt; }
+  .nosotros__img {
+    width: 100%; }
+  .galeria__img {
+    width: 80%; }
+  .serviciosGrilla {
+    display: block; } }

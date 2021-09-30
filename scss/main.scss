@@ -1,0 +1,137 @@
+@import "grid";
+@import "typo";
+@import "components";
+
+/* COMIENZA NAV */
+.navbar{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100px;
+}
+
+#nav1
+{  
+    background-color:rgb(0, 0, 0);
+    opacity: 0.9; 
+    filter:(opacity=50);       
+}
+
+.nav-link{
+    color: #ffffff;
+}
+/* FINALIZA NAV */
+
+/* COMIENZA GALERIA*/
+.mainGaleria{
+    background-size: cover;
+    width: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mainGaleria > img:hover{
+    transform: scale(1.1);
+}
+
+.mainGaleria > img{
+    transform: scale(1);
+    transition: 2s;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* FINALIZA GALERIA*/
+
+/* COMIENZA SOBRE NOSOTROS*/
+.mainNosotros{
+    height: 900px;
+    background: url(https://onfiredrinks.com/wp-content/uploads/2016/07/onfire-drinks-acerca-de-nosotros_onfire.jpg) no-repeat;
+    background-size: cover;
+}
+
+.nosotros__img{
+    display: block;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+/* FINALIZA SOBRE NOSOTROS*/
+
+.servicios__img{
+    width: 100%; 
+    height: auto; 
+    margin-top: 50px; 
+    display: flex;
+}
+
+
+body{
+    margin: 0;
+    background-color: black !important;
+}
+
+hr{
+    margin-top: 20px;
+    color: white !important;
+}
+
+.galeria__img{
+    margin: auto;
+    display: block;
+    width: 50%;
+    height: auto;
+}
+
+.textoFooter{
+    color: rgb(107, 104, 104);
+}
+
+/* TAMAÑO PARA MOVILES */
+@media only screen and (max-width:320px){
+    .textoInicio{
+        font-size: 14pt;
+    }
+
+    .galeria__img{
+        width: 100%;
+    }
+
+    .nosotros__img{
+        max-width: 320px;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+    
+    .nosotros__text{
+        font-size: 16pt;
+    }
+
+    .serviciosGrilla{
+        display: block;
+    }
+
+}
+
+/* TAMAÑO TABLETS Y NOTEBOOKS*/
+@media (min-width: 321px) and (max-width: 1024px){
+   .textoInicio{
+       font-size: 18pt;
+   }
+
+   .nosotros__text{
+       font-size: 18pt;
+   }
+
+   .nosotros__img{
+       width: 100%;
+   }
+    
+    .galeria__img{
+        width: 80%;
+    }
+
+    .serviciosGrilla{
+        display: block;
+    }
+
+
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <title>Servicios | Bonos Cocktails</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-dark navbar-expand-lg sticky-top" id="nav1">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="../images/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html">Inicio<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Galeria</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="serviciosGrilla">
+            <div class="servicios__div1">
+                <div>
+                    <h1 class="servicios__titulo">SERVICIO STANDARD</h1>
+                    <p class="servicios__texto">Este servicio es el más básico, cuenta con tragos
+                        clasicos como fernet, cuba libre, gin tonic,
+                        campari, destornillador, caipirinha y caipiroska.
+                        Todos los licores son de origen nacional.
+                        Ideal para público joven no muy exigente.</p>
+                    <img class="servicios__img" src="../images/marcasStandard.png" alt="">
+                    <form action="servicioStandard.html">
+                        <input class="boton__servicio1" type="submit" value="Ir al servicio"/>
+                    </form>
+                </div>
+                
+            </div>
+            <div class="servicios__div2">
+                <div>
+                    <h1 class="servicios__titulo">SERVICIO PREMIUM</h1>
+                    <p class="servicios__texto">Servicio más variado, incluye
+                        los tragos del anterior servicio ademas de tragos 
+                        mas elaborados como el mojito, caipiroska frutal (frutilla y maracuya),
+                        vodkas frutales y whiscola.
+                        Todas bebidas importadas jovenes 
+                        Ideal para personas con paladares más exigentes.</p>
+                    <img class="servicios__img" src="../images/marcasPremium.png" alt="">
+                    <form action="servicioDeluxe.html">
+                        <input class="boton__servicio2" type="submit" value="Ir al servicio" />
+                    </form>    
+                </div>
+                
+            </div>
+            <div class="servicios__div3">
+                <div>
+                    <h1 class="servicios__titulo">SERVICIO DELUXE</h1>
+                    <p class="servicios__texto">El servicio de mayor calidad
+                        de nuestra carta, incluye los tragos de los servicios anteriores
+                        y tragos como el negroni, margarita, daiquiri,
+                        saltamontes, cynar julep y jagermeister.
+                        Bebidas importadas añejadas.
+                        Ideal para las personas que buscan la máxima calidad.</p>
+                    <img class="servicios__img" src="../images/marcasDeluxe.png" alt="">
+                    <form action="servicioPremium.html">
+                        <input class="boton__servicio3" type="submit" value="Ir al servicio"/>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <footer class="w-100 d-flex align-items justify-content-center flex-wrap">
+            <p class="fs-5 px-3 pt-3 textoFooter">Bonos Cocktails&#169 Todos Los Derechos Reservados 2021</p>
+            <div id="iconos" class="d-flex align-items-center justify-content-center">
+                <a href="https://www.facebook.com" target="_blank" style="padding-right: 15px;"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com" target="_blank" style="padding-right: 15px;"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>

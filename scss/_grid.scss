@@ -1,0 +1,28 @@
+.serviciosGrilla{
+    height: auto;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "div1 div2 div3"
+                         "div1 div2 div3"
+                         "div1 div2 div3";
+    column-gap: 10px;
+}
+
+.servicios__div1{
+    background-image: linear-gradient(white, grey);
+    grid-area: div1;
+    border-radius: 20px;
+}
+
+.servicios__div2{
+    @extend .servicios__div1;
+    grid-area: div2;
+
+}
+
+.servicios__div3{
+    @extend .servicios__div1;
+    grid-area: div3;
+}
