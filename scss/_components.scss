@@ -5,13 +5,7 @@
     display: $display;
 }
 
-/* .boton__servicio1{
-    @include botones(black, white, 28px, block);
-    border-radius: 16px;
-    margin: auto;
-    margin-bottom: 50px;
-    margin-top: 50px;
-} */
+/* BOTONES */
 
 .boton__servicio1{
     @include botones(black, white, 24px, block);
