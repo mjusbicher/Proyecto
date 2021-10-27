@@ -5,26 +5,52 @@
     display: $display;
 }
 
+/* .boton__servicio1{
+    @include botones(black, white, 28px, block);
+    border-radius: 16px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+} */
+
 .boton__servicio1{
-    @include botones(white, black, 28px, block);
-    border-radius: 16px;
+    @include botones(black, white, 24px, block);
     margin: auto;
-    margin-bottom: 50px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    margin-bottom: 80px;
     margin-top: 50px;
-}
+  }
+  
+.boton__servicio1:hover {
+    background-color: #000000;
+    color: white;
+  }
 
-.boton__servicio2{
-    @include botones(white, black, 28px, block);
-    border-radius: 16px;
+  .boton__servicio2{
+    @include botones(black, white, 24px, block);
     margin: auto;
-    margin-bottom: 50px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    margin-bottom: 80px;
     margin-top: 50px;
-}
+  }
 
-.boton__servicio3{
-    @include botones(white, black, 28px, block);
-    border-radius: 16px;
+  .boton__servicio2:hover {
+    background-color: #000000;
+    color: white;
+  }
+
+  .boton__servicio3{
+    @include botones(black, white, 24px, block);
     margin: auto;
-    margin-bottom: 50px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    margin-bottom: 80px;
     margin-top: 50px;
-}
+  }
+
+  .boton__servicio3:hover {
+    background-color: #000000;
+    color: white;
+  }

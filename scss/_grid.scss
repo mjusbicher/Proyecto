@@ -1,28 +1,43 @@
 .serviciosGrilla{
     height: auto;
-    width: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "div1 div2 div3"
                          "div1 div2 div3"
                          "div1 div2 div3";
-    column-gap: 10px;
+    margin-left: 50px;
 }
 
 .servicios__div1{
-    background-image: url(https://images.unsplash.com/photo-1563223771-5fe4038fbfc9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    background-image: url(../images/cardStandard.png);
+    background-position: center top;
+    background-size: cover;
     grid-area: div1;
     border-radius: 20px;
+    justify-content: space-between;
+    border-style: inset;
+    width: 90%;
 }
 
 .servicios__div2{
-    @extend .servicios__div1;
+    background-image: url(../images/cardPremium.png);
+    background-position: center top;
+    background-size: cover;
     grid-area: div2;
-
+    border-radius: 20px;
+    justify-content: space-between;
+    border-style: inset;
+    width: 90%;
 }
 
 .servicios__div3{
-    @extend .servicios__div1;
+    background-image: url(../images/cardDeluxe.png);
+    background-position: center top;
+    background-size: cover;
     grid-area: div3;
+    border-radius: 20px;
+    justify-content: space-between;
+    border-style: inset;
+    width: 90%;
 }

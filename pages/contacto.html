@@ -19,7 +19,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="../index.html">Inicio<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
@@ -31,7 +31,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="galeria.html">Galeria</a>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="contacto.html">Contacto</a>
                     </li>
                     </ul>
@@ -41,18 +41,18 @@
         <main>
             <!-- Formulario de contacto -->
             <section class="mb-4">
-                <h2 class="h1-responsive font-weight-bold text-center my-4 text-white">Contactanos</h2>
+                <h2 class="h1-responsive font-weight-bold my-4 text-white" style="margin-left: 30px;">Contactanos</h2>
                 <div class="row" style="margin-left: 15px;">
                     <div class="col-md-9 mb-md-0 mb-5">
                         <form id="contact-form" name="contact-form" action="mail.php" method="POST">
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-4">
                                     <div class="md-form mb-0">
                                         <input type="text" id="name" name="name" class="form-control">
                                         <label for="name" class="text-white">Nombre y Apellido</label>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-4">
                                     <div class="md-form mb-0">
                                         <input type="text" id="email" name="email" class="form-control">
                                         <label for="email" class="text-white">Email</label>
@@ -60,7 +60,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-12">
+                                <div class="col-md-8">
                                     <div class="md-form mb-0">
                                         <input type="text" id="subject" name="subject" class="form-control">
                                         <label for="subject" class="text-white">Asunto</label>
@@ -68,7 +68,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-12">
+                                <div class="col-md-8">
 
                                     <div class="md-form">
                                         <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
@@ -83,7 +83,7 @@
                         </div>
                         <div class="status"></div>
                     </div>
-                    <div class="col-md-3 text-center">
+                    <div class="col-md-2 text-center">
                         <ul class="list-unstyled mb-0">
                             <li><i class="fas fa-map-marker-alt fa-2x"></i>
                                 <p class="text-white">Villa Urquiza, CABA</p>

@@ -1,6 +1,7 @@
 @import "grid";
 @import "typo";
 @import "components";
+@import "services";
 
 /* COMIENZA NAV */
 .navbar{
@@ -109,6 +110,26 @@ hr{
         display: block;
     }
 
+    .servicios__div1{
+        margin-bottom: 50px;
+    }
+
+    .servicios__div2{
+        margin-bottom: 50px;
+    }
+
+    .servicios__div3{
+        margin-bottom: 50px;
+    }
+
+    .cards{
+        display: block;
+    }
+    
+    .cards h3{
+        margin-top: 50px;
+        text-align: center;
+    }
 }
 
 /* TAMAÑO TABLETS Y NOTEBOOKS*/
@@ -133,5 +154,40 @@ hr{
         display: block;
     }
 
+    .servicios__div1{
+        margin-bottom: 50px;
+    }
 
+    .servicios__div2{
+        margin-bottom: 50px;
+    }
+
+    .servicios__div3{
+        margin-bottom: 50px;
+    }
+
+    .cards{
+        display: block;
+    }
+
+    .imagen__servicios{
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .texto_servicios{
+        text-align: center;
+    }
+
+    .servicios__marcas{
+        background-color: rgb(156, 156, 156);
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 12px;
+    }
+
+    .cards h3{
+        margin-top: 50px;
+    }
 }
+
